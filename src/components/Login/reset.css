@@ -1,0 +1,153 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    width: 100%;
+    height: 100%;
+   
+  }
+  
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 28px;
+    position: relative;
+    z-index: 1;
+    margin-top:6%;
+  }
+  
+  .logo {
+    width: 130px;
+  }
+  
+  .form-container {
+    width: 38%;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 12%;
+  }
+  
+  .form-element {
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .title {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+    color: #222b45;
+  }
+  
+  .form-input {
+    border:1px solid #acacac  ;
+    border-radius: 5px;
+    height: 40px;
+    width: 97%;
+    padding-left: 10px;
+    box-shadow: #959595;
+    outline: none;
+  
+  }
+  
+  .content {
+    color: #959595;
+    cursor: default;
+    padding: 0px;
+    margin: 0px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .form-password-reset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .link{
+    color: black;
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-style: normal;  
+    margin: 0 px;
+    padding: 0%;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .checkbox{
+    cursor: pointer;
+    
+  }
+  
+  .checkbox-content{
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: left;
+  }
+  
+  .form-button {
+    width: 100%;
+    margin-top: 0%;
+  }
+  
+  .button1 {
+    
+    height: 48px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border: none;
+   
+  }
+  
+  
+  
+  .select-theme {
+    -webkit-appearance: none;
+   
+    color: #959595;
+    border: none;
+    border-bottom: 1px solid #acacac ;
+    padding-left: 10px;
+    height: 35px;
+    width: 100%;
+  
+  }
+  
+  .back-to-login{
+    font-size: 15px;
+    color: black;
+    display: flex;
+    text-decoration: none;
+    font-style: normal;
+    margin-top: 5%;
+    justify-content: center;
+  }
+  
+  .pass-msg
+  {
+    border: none;
+    border-left: 4px solid black;
+    padding: 13px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 10%);
+  }
+  
+  .get-pwd{
+   margin-top: 65px;  
+  }
+  
+  

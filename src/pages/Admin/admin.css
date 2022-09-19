@@ -1,0 +1,17 @@
+.btn {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    font-size: 2em;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    z-index: 1;
+    bottom: 5%;
+    right: 4%;
+    box-shadow:rgb(24, 6, 218);
+  }

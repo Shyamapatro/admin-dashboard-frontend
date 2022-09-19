@@ -1,0 +1,74 @@
+.app.dark {
+    background-color: #131c2d;
+    color: aliceblue;
+ 
+    .table {
+      background-color:#222b45;
+      color: aliceblue;
+      .table-head{
+        background-color: #222b45;
+        color: aliceblue;
+      }
+      .tableCell {
+        background-color:#222b45;
+       color: aliceblue;
+       .table-button{
+        color: aliceblue;
+       }
+      }
+    }
+    .search-container{
+      background-color:#222b45;
+      color: aliceblue; 
+      .search-box{
+        background-color:#596790;
+      color: rgba(240, 248, 255, 0.66); 
+      }
+    }
+    .chart-container{
+      color: aliceblue;
+    }
+    .paper-container{
+      background-color:#222b45;
+      color: aliceblue;
+    }
+  
+    .navbar {
+      background-color:#222b45;
+      color: rgb(255, 255, 255);
+      // border-color: #333;
+  
+      .search {
+        border-color: gray;
+      }
+    }
+  
+    .sidebar {
+      background-color:#222b45;
+      color: rgb(255, 255, 255);
+  
+      .list {
+        color: rgb(255, 255, 255);
+      }
+     
+  
+      ul {
+        li {
+          &:hover {
+            background-color: #333;
+          }
+  
+          .icon {
+            color: #999;
+          }
+        }
+      }
+    }
+  
+   
+  
+    input{
+        background-color: transparent;
+    }
+  }
+

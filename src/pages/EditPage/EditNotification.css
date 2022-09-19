@@ -1,0 +1,21 @@
+.upload_image
+{
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+.upload_image input
+{
+	position: absolute;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
+.profile_image
+{
+	border: 2px solid #c2c2c2;
+	margin: 20px 0;
+	width: 200px;
+	height: 200px;
+}
